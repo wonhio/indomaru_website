@@ -111,7 +111,7 @@ export const philosophyStatements = [
 export const presenceMarkets = [
   { name: "DUBAI", note: "Middle East Hub" },
   { name: "SEOUL", note: "Asia Network" },
-  { name: "SINGAPORE", note: "South East Asia Hub" },
+  { name: "SINGAPORE", note: "Asia Network" },
 ];
 
 export const contactCategories = [
