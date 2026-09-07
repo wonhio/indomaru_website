@@ -4,7 +4,7 @@ export const siteConfig = {
   tagline: "Building Businesses Across Borders.",
   description:
     "INDOMARU is a Dubai-based privately held business group operating across maritime, digital assets and global travel.",
-  locationLabel: "DUBAI · SEOUL · GLOBAL",
+  locationLabel: "DUBAI · SEOUL · SINGAPORE",
 };
 
 export const primaryNav = [
@@ -111,7 +111,7 @@ export const philosophyStatements = [
 export const presenceMarkets = [
   { name: "DUBAI", note: "Middle East Hub" },
   { name: "SEOUL", note: "Asia Network" },
-  { name: "GLOBAL", note: "International Partners" },
+  { name: "SINGAPORE", note: "South East Asia Hub" },
 ];
 
 export const contactCategories = [
