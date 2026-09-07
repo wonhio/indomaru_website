@@ -52,7 +52,7 @@ export default function AboutPage() {
             </p>
           </Reveal>
 
-                    <Reveal className="max-w-2xl">
+          <Reveal className="max-w-2xl">
             <p className="text-xs tracking-wide2 uppercase text-navy/70 mb-4">
               OUR BASES
             </p>
