@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { primaryNav, siteConfig } from "@/lib/site";
@@ -33,10 +34,18 @@ export default function Header() {
       <div className="container-edit flex items-center justify-between h-20">
         <Link
           href="/"
-          className="font-display text-lg tracking-wide text-parchment"
+          className="relative block h-9 w-[108px] shrink-0"
           onClick={() => setMenuOpen(false)}
+          aria-label={siteConfig.name}
         >
-          {siteConfig.name}
+          <Image
+            src="/logo.png"
+            alt={siteConfig.name}
+            fill
+            priority
+            sizes="108px"
+            className="object-contain object-left"
+          />
         </Link>
 
         <nav className="hidden md:flex items-center gap-10">
