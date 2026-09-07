@@ -32,13 +32,10 @@ export default function ContactPage() {
         <div className="container-edit py-24 md:py-32">
           <div className="grid md:grid-cols-[1fr_1.3fr] gap-16">
             <Reveal>
-              <p className="text-xs tracking-wide2 uppercase text-navy/70 mb-6">
-                REACH US
-              </p>
-              <p className="font-display text-2xl text-ink mb-8">
-                Dubai, United Arab Emirates
-              </p>
-              <ul className="space-y-3 text-sm text-charcoal/70">
+              <p className="text-xs tracking-wide2 uppercase text-navy/70 mb-8">
+  REACH US
+</p>
+<ul className="space-y-3 text-sm text-charcoal/70">
                 <li>General Enquiries</li>
                 <li>Business Partnerships</li>
                 <li>Maritime</li>
