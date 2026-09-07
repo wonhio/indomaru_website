@@ -34,7 +34,7 @@ export default function Header() {
       <div className="container-edit flex items-center justify-between h-20">
         <Link
           href="/"
-          className="relative block h-9 w-[108px] shrink-0"
+          className="relative block h-[61px] w-[184px] shrink-0"
           onClick={() => setMenuOpen(false)}
           aria-label={siteConfig.name}
         >
@@ -43,7 +43,7 @@ export default function Header() {
             alt={siteConfig.name}
             fill
             priority
-            sizes="108px"
+            sizes="184px"
             className="object-contain object-left"
           />
         </Link>
