@@ -52,16 +52,18 @@ export default function AboutPage() {
             </p>
           </Reveal>
 
-          <Reveal className="max-w-2xl">
+                    <Reveal className="max-w-2xl">
             <p className="text-xs tracking-wide2 uppercase text-navy/70 mb-4">
-              OUR BASE
+              OUR BASES
             </p>
             <h2 className="font-display text-2xl md:text-3xl text-ink mb-5">
-              Dubai, United Arab Emirates
+              Dubai, Seoul & Singapore
             </h2>
             <p className="text-base md:text-lg text-charcoal/80 leading-relaxed">
-              Dubai provides INDOMARU with a strategic base between Asia,
-              Europe, the Middle East and Africa, supporting our
+              INDOMARU operates from three international hubs — Dubai in
+              the United Arab Emirates, Seoul in the Republic of Korea,
+              and Singapore — giving us a strategic base between the
+              Middle East, Asia and global markets, and supporting our
               international business activities and partnerships.
             </p>
           </Reveal>
