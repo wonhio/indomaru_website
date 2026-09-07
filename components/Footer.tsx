@@ -21,13 +21,9 @@ const footerColumns = [
   },
   {
     heading: "Platforms",
-    links: [{ label: "Trateria", href: "https://www.trateria.com", external: true }],
-  },
-  {
-    heading: "Legal",
     links: [
-      { label: "Privacy Policy", href: "/privacy-policy" },
-      { label: "Terms of Use", href: "/terms-of-use" },
+      { label: "Trateria", href: "https://www.trateria.com", external: true },
+      { label: "Xerovan", href: "https://www.xerovan.com", external: true },
     ],
   },
 ];
@@ -51,7 +47,7 @@ export default function Footer() {
                 {col.links.map((link) => (
                   <li key={link.label}>
                     {"external" in link && link.external ? (
-                      <a
+                      
                         href={link.href}
                         target="_blank"
                         rel="noopener noreferrer"
