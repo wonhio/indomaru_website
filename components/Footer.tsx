@@ -74,7 +74,6 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between gap-3 text-xs text-mist">
           <p>© 2026 {siteConfig.name}. All rights reserved.</p>
-          <p>Dubai, United Arab Emirates</p>
         </div>
       </div>
     </footer>
